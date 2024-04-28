@@ -36,7 +36,7 @@ rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/appmanifest_1361210.ac
 rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/common/Warhammer 40,000 DARKTIDE/" "/mnt/SSDWin/SteamLibrary/steamapps/common/Warhammer 40,000 DARKTIDE"
 
 #Fallout76
-rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/appmanifest_1151340.acf" "/mnt/SSDWin/SteamLibrary/steamapps/"
+rsync -avr  --delete "/mnt/SSD2/SteamLibrary/steamapps/appmanifest_1151340.acf" "/mnt/SSDWin/SteamLibrary/steamapps/"
 rsync -avr  --delete "/mnt/SSD2/SteamLibrary/steamapps/common/Fallout76/" "/mnt/SSDWin/SteamLibrary/steamapps/common/Fallout76/"
 
 #Strangers Jack Final Fantasy
