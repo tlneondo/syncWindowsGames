@@ -23,6 +23,14 @@ rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/common/Call of Duty HQ
 rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/appmanifest_1240440.acf" "/mnt/SSDWin/SteamLibrary/steamapps/"
 rsync -avr  --delete "/mnt/Documents/SteamLibrary/steamapps/common/Halo Infinite/" "/mnt/SSDWin/SteamLibrary/steamapps/common/Halo Infinite/"
 
+#Halo MCC
+rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/appmanifest_976730.acf" "/mnt/SSDWin/SteamLibrary/steamapps/"
+rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/common/Halo The Master Chief Collection/" "/mnt/SSDWin/SteamLibrary/steamapps/common/Halo The Master Chief Collection/"
+
+#Halo MCC Workshop
+rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/workshop/appworkshop_976730.acf" "/mnt/SSDWin/SteamLibrary/steamapps/workshop/"
+rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/workshop/content/976730/" "/mnt/SSDWin/SteamLibrary/steamapps/workshop/content/976730/"
+
 #DarkTide
 rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/appmanifest_1361210.acf" "/mnt/SSDWin/SteamLibrary/steamapps/"
 rsync -avr  --delete "/mnt/Storage/SteamLibrary/steamapps/common/Warhammer 40,000 DARKTIDE/" "/mnt/SSDWin/SteamLibrary/steamapps/common/Warhammer 40,000 DARKTIDE"
